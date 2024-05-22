@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -14,28 +15,38 @@
         </a>
         <!-- menu -->
         <ul>
-          <li><a href="#traditional-section">Наші традиції</a></li>
-          <li><a href="#chefs-section">Шеф-кухарі</a></li>
-          <li><a href="#formats-section">Формати</a></li>
-          <li><a href="#join-section">Контакти</a></li>
+          <li>
+            <a class="header-section-link" href="#chefs-section">Шеф-кухарі</a>
+          </li>
+          <li>
+            <a class="header-section-link" href="#traditional-section"
+              >Наші традиції</a
+            >
+          </li>
+          <li>
+            <a class="header-section-link" href="#formats-section">Формати</a>
+          </li>
+          <li>
+            <a class="header-section-link" href="#join-section">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <button type="submit">Замовити дзвінок</button>
+      <button type="button" class="button-call">Замовити дзвінок</button>
       <!-- Замовити дзвінок -->
     </header>
     <main>
       <section>
         <!-- 1 -->
-        <h1>Сучасна пекарня</h1>
+        <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
       </section>
       <section id="traditional-section">
         <!-- 2 -->
-        <ul>
+        <ul class="advantages-list">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
         </ul>
-        <h2>Новий формат традицій</h2>
+        <h2 class="section-title">Новий формат традицій</h2>
         <p>
           <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
           зберегла смак традиційної випічки та натуральність інгредієнтів.
@@ -51,11 +62,13 @@
       </section>
       <section id="chefs-section">
         <!-- 3 -->
-        <h2>Наші найкращі шеф-кухарі</h2>
+        <h2 class="section-title">
+          Наші найкращі <span class="accent">шеф-кухарі</span>
+        </h2>
         <ul>
           <li>
             <article>
-              <h3>Настя</h3>
+              <h3 class="section-title">Настя</h3>
               <p>Привіт, я Настя!</p>
               <p>Вже 10 років, я втілюю у життя цікаві та смачні ідеї.</p>
               <p>Я випічу для вас найсмачніщі вироби!</p>
@@ -63,7 +76,7 @@
           </li>
           <li>
             <article>
-              <h3>Влад</h3>
+              <h3 class="section-title">Влад</h3>
               <p>Привіт, я Влад!</p>
               <p>
                 Мій кодитерський стаж вже 18 років. SHOP BEKERY - це наша любов,
@@ -76,7 +89,7 @@
       </section>
       <section id="formats-section">
         <!-- 4 -->
-        <h2>Формати</h2>
+        <h2 class="section-title">Формати</h2>
         <ul>
           <li>
             <article>
@@ -97,7 +110,7 @@
       </section>
       <section id="join-section">
         <!-- 5 -->
-        <h2>Приєднуйся до мережі пекарень</h2>
+        <h2 class="section-title">Приєднуйся до мережі пекарень</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.132261850599!2d28.523215177268796!3d49.44421717141767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5b86920b8d5d%3A0x6e1b3c0e82b2de06!2sLaris!5e0!3m2!1sru!2sua!4v1716209575560!5m2!1sru!2sua"
           width="600"
@@ -129,7 +142,9 @@
           </li>
           <li>
             <a href="https://maps.app.goo.gl/MjL4c8HSLkyFNQK9A" target="_blank"
-              >Україна, м. Київ, вул. Січових Стрільців 54</a></li>
+              >Україна, м. Київ, вул. Січових Стрільців 54</a
+            >
+          </li>
           <li><a href="http://" target="_blank">Facebook</a></li>
           <!-- facebook icon -->
           <li><a href="http://" target="_blank">Instagram</a></li>
