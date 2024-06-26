@@ -303,15 +303,37 @@
       <div class="modal">
         <button class="button modal-btn-close" type="button">Close</button>
         <h2>Замовити дзвінок</h2>
-       <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+        <p class="leave-request-big">Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
         <form name="contact-form" autocomplete="off" novalidate>
-          <label for="user-name">Введіть Ваше ім'я</label>
-          <input id="user-name" type="text"/>
-
-          <label>
-            Введіть Ваше ім'я
-            <input type="text">
-          </label>
+          <div class="form-field">
+           <label class="form-label visually-hidden" for="user-name">Ім'я</label>
+             <input 
+             class="form-input" 
+             type="text" 
+             id="user-name" 
+             name="user-name"
+             placeholder="Ім'я"/>
+          </div>
+          <div class="form-field">
+           <label class="form-label visually-hidden" for="user-tel">Телефон</label>
+           <input 
+             class="form-input" 
+             type="tel" 
+             id="user-tel" 
+             name="user-tel"
+             placeholder="Телефон"/>
+          </div>
+          <div class="form-field">
+           <label class="form-label visually-hidden" for="user-mail">Електронна пошта</label>
+           <input 
+             class="form-input" 
+             type="email" 
+             id="user-mail" 
+             name="user-mail"
+             placeholder="Електронна пошта"/>
+          </div>
+          <button class="button form-button" type="submit">Замовити дзвінок</button>
+          <p class="leave-request">Натискаючи на кнопку я погоджуюсь <a href="" class="leave-request-link">з політикою конфіденційності</a></p>
         </form>
       </div>
     </div>
